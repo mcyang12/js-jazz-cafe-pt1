@@ -75,12 +75,12 @@ console.log(message.concat("Welcome to our jazz cafe! Our menu features ", menu.
 
 // 15 - Use concat() to concatenate the string ", and our specials include " with the value of the 
 //"Drink Special" property from `specials`
-
+console.log(message.concat(", and our specials include", specials.DrinkSpecial));
 
 
 // 16 - Use concat() to concatenate the string ", along with our playlist of " with the value of the 
 //`totalSongs` variable
-
+console.log(message.concat(", along with our playlist of", playlist.totalSongs));
 
 
 // 17 - Use toUpperCase() to convert the entire `message` string to uppercase
