@@ -84,7 +84,8 @@ console.log(message.concat(", along with our playlist of", playlist.totalSongs))
 
 
 // 17 - Use toUpperCase() to convert the entire `message` string to uppercase
-
-
+string = message.toUpperCase();
+console.log(string);
 
 // 18 - Console log the `message` string
+console.log(message);
